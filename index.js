@@ -6,7 +6,7 @@ import React from 'react';
 import Header from './src/components/header';
 
 const CONSI = () =>{
-    return <Header/>;
+    return <Header headerText={"Albums!"}/>;
 };
 
 AppRegistry.registerComponent('albums', () => CONSI);
